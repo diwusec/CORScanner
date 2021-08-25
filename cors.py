@@ -20,20 +20,7 @@ from colorama import init
 # Globals
 results = []
 
-def banner():
-    print(("""%s
-   ____ ___  ____  ____   ____    _    _   _ _   _ _____ ____  
-  / ___/ _ \|  _ \/ ___| / ___|  / \  | \ | | \ | | ____|  _ \ 
- | |  | | | | |_) \___ \| |     / _ \ |  \| |  \| |  _| | |_) |
- | |__| |_| |  _ < ___) | |___ / ___ \| |\  | |\  | |___|  _ < 
-  \____\___/|_| \_\____/ \____/_/   \_\_| \_|_| \_|_____|_| \_\
-                                                               %s%s
-        # Coded By Jianjun Chen - whucjj@gmail.com%s
-    """ % ('\033[91m', '\033[0m', '\033[93m', '\033[0m')))
-
-
 def parser_error(errmsg):
-    banner()
     print(("Usage: python " + sys.argv[0] + " [Options] use -h for help"))
     print(("Error: " + errmsg))
     sys.exit()
