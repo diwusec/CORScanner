@@ -9,6 +9,8 @@ corscanner is a python tool designed to discover CORS misconfigurations vulnerab
 * 🆕 CORScanner supports installation via pip (`pip install corscanner` or `pip install cors`)
 * 🆕 CORScanner can be used as a library in your project.
 
+
+
 ## Installation
 
 - Download this tool
